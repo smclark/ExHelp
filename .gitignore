@@ -28,6 +28,24 @@ local.properties
 # PDT-specific
 .buildpath
 
+# Resharper Files #
+###################
+[Oo]bj
+[Bb]in
+*.user
+*.suo
+*.[Cc]ache
+*.bak
+_ReSharper.*
+*.resharper
+Ankh.NoLoad
+
+# Nuget Packages #
+#############
+packages/*
+!packages/repositories.config
+!.nuget/*
+
 
 #################
 ## Visual Studio
